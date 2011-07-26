@@ -1,0 +1,14 @@
+load-path is a variable defined in `C source code'.
+Its value is
+("c:/progra/emacs-23.3/site-lisp" "C:/progra/emacs-23.3/../site-lisp" "C:/progra/emacs-23.3/lisp" "c:/progra/emacs-23.3/lisp/url" "c:/progra/emacs-23.3/lisp/textmodes" "c:/progra/emacs-23.3/lisp/progmodes" "c:/progra/emacs-23.3/lisp/play" "c:/progra/emacs-23.3/lisp/org" "c:/progra/emacs-23.3/lisp/nxml" "c:/progra/emacs-23.3/lisp/net" "c:/progra/emacs-23.3/lisp/mh-e" "c:/progra/emacs-23.3/lisp/mail" "c:/progra/emacs-23.3/lisp/language" "c:/progra/emacs-23.3/lisp/international" "c:/progra/emacs-23.3/lisp/gnus" "c:/progra/emacs-23.3/lisp/eshell" "c:/progra/emacs-23.3/lisp/erc" "c:/progra/emacs-23.3/lisp/emulation" "c:/progra/emacs-23.3/lisp/emacs-lisp" "c:/progra/emacs-23.3/lisp/cedet" "c:/progra/emacs-23.3/lisp/calendar" "c:/progra/emacs-23.3/lisp/calc" "c:/progra/emacs-23.3/lisp/obsolete" "C:/progra/emacs-23.3/leim")
+
+
+  This variable is potentially risky when used as a file local variable.
+
+Documentation:
+*List of directories to search for files to load.
+Each element is a string (directory name) or nil (try default directory).
+Initialized based on EMACSLOADPATH environment variable, if any,
+otherwise to default specified by file `epaths.h' when Emacs was built.
+
+[back]

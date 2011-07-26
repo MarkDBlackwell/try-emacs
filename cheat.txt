@@ -1,0 +1,10 @@
+http://stackoverflow.com/questions/269812/how-to-quickly-get-started-at-using-and-learning-emacs
+http://stackoverflow.com/questions/270930/using-emacs-to-recursively-find-and-replace-in-text-files-not-already-open
+http://www.emacswiki.org/emacs/Icicles
+use c:\progra\emacs-23.1/
+Per http://www.gnu.org/software/emacs/windows/Installing-Emacs.html:
+Per 'Where do I put my init file?', section 3.5:
+'.emacs' file is C:\Documents and Settings\Mark\Application Data\.emacs.d\init.el .
+Per 'Troubleshooting init file problems', section 3.5.1:
+To see an environment veriable (e.g., HOME), evaluate an expression in the *scratch* buffer using C-x C-e:
+(getenv "HOME")
